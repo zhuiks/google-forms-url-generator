@@ -1,4 +1,4 @@
-var URLGenerator = function(formURL)
+var GoogleFormsURLGenerator = function(formURL)
 {
 
     var paramsToQueryString = function(params)
