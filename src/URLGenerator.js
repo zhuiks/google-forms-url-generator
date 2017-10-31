@@ -21,7 +21,7 @@ var GoogleFormsURLGenerator = function(formURL)
                 }
                 queryStringParams += 'entry.'+key.toString()+'='+encodeURIComponent(params[key]);
             }
-        queryStringParams += key + "=" + encodeURIComponent(obj[key]);
+        }
         return '?' + queryStringParams;
     }
 
